@@ -1,0 +1,37 @@
+{
+  "name": "mehvar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MEHVAR — Modern E-Commerce REST API built with Node.js and Express.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand",
+    "build": "node --check src/server.js && node --check src/app.js",
+    "typecheck": "node --check src/server.js && node --check src/app.js && node --check src/routes/productRoutes.js && node --check src/controllers/productController.js && node --check src/services/productService.js && node --check src/middleware/errorHandler.js && node --check src/middleware/notFound.js && node --check src/utils/errors.js && node --check src/utils/fields.js && node --check src/data/products.js",
+    "preview": "PORT=8081 HOST=127.0.0.1 node src/server.js",
+    "preview:restart": "node scripts/preview.mjs restart",
+    "preview:stop": "node scripts/preview.mjs stop"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "playwright": "^1.62.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  }
+}

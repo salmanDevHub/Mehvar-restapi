@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "MEHVAR — Modern E-Commerce REST API",
+      "hasCanvas": false,
+      "bodyTextLen": 853,
+      "bodyTextHash": "f131a62ef1d4a462185984a84ace6ab0c99568f4c387134a82352bfe1f155876",
+      "bodyTextPrefix": "MEHVAR Catalog API Lab Studio NODE.JS · EXPRESS · REST Commerce ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "MEHVAR — Modern E-Commerce REST API",
+      "hasCanvas": false,
+      "bodyTextLen": 853,
+      "bodyTextHash": "f131a62ef1d4a462185984a84ace6ab0c99568f4c387134a82352bfe1f155876",
+      "bodyTextPrefix": "MEHVAR Catalog API Lab Studio NODE.JS · EXPRESS · REST Commerce ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

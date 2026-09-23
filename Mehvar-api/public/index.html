@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MEHVAR — Modern E-Commerce REST API</title>
+    <meta
+      name="description"
+      content="MEHVAR is a Node.js Express REST catalog with idempotent PUT, standardized errors, and field selection."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <script src="/preview-bridge.js"></script>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="/" data-link>
+          <svg viewBox="0 0 32 32" class="mark" aria-hidden="true">
+            <rect width="32" height="32" rx="8" fill="currentColor"></rect>
+            <path
+              d="M8 22.5V9.5h3.1l4.9 8.4 4.9-8.4H24v13h-2.7v-8.1l-4.2 7.1h-2.2l-4.2-7.1v8.1H8z"
+              fill="#f3eee4"
+            ></path>
+          </svg>
+          <span>MEHVAR</span>
+        </a>
+        <nav class="nav">
+          <a href="/catalog" data-link>Catalog</a>
+          <a href="/docs" data-link>API Lab</a>
+          <a href="/studio" data-link>Studio</a>
+        </nav>
+      </header>
+
+      <main id="app">
+        <section class="hero">
+          <p class="eyebrow">Node.js · Express · REST</p>
+          <h1>Commerce on its true axis.</h1>
+          <p class="lede">
+            MEHVAR is a local Express catalog: noun-based URLs, honest HTTP status codes, idempotent PUT, and
+            <code>?fields=title,price</code> so clients never over-fetch.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/catalog" data-link>Shop the catalog</a>
+            <a class="btn btn-ghost" href="/docs" data-link>Open the API lab</a>
+          </div>
+        </section>
+        <section class="section">
+          <h2>Five departments, twelve products each</h2>
+          <p class="muted">Electronics, Fashion, Home & Living, Beauty, and Sport & Outdoor.</p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>MEHVAR · Express REST API · <code>/api/v1/products</code></p>
+      </footer>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
